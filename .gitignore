@@ -1,0 +1,22 @@
+# Python environment and cache
+venv/
+__pycache__/
+*.pyc
+.python-version
+
+# Data and large files
+data/
+
+
+# Hadoop outputs (local and HDFS)
+# The local folder for compiled MapReduce jobs
+mapreduce/classes/
+# The compiled JAR file
+mapreduce/LogProcessor.jar
+
+# IDE specific files
+.vscode/
+.idea/
+
+# System files
+.DS_Storedata/
