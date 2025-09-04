@@ -149,8 +149,11 @@ streamlit run frontend/app.py
 Command	Description
 
 hadoop fs -mkdir -p /user/chirag/raw_logs	       Creates a directory in HDFS.
+
 hadoop fs -put <local_file> /user/chirag/raw_logs/	Uploads a file from local to HDFS.
+
 hive -f hive_scripts/create_processed_table.sql	    Executes a Hive script.
+
 streamlit run frontend/app.py	                  Runs the Streamlit web app.
 
 ---
